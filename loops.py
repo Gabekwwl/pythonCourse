@@ -1,12 +1,5 @@
+lin = input("Ile linijek wariacie? ")
 x = 1
-warunek = True
-while warunek:
-    print(x)
-    while x >= 5 and x%5==0:
-        print("duża liczba!")
-        break
-        pass
+while x<=int(lin):
+    gw = ('*'*x)
     x+=1
-    if x > 25:
-        break
-    pass
