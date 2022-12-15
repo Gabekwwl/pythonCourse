@@ -1,6 +1,8 @@
-def pole(a, b):
-    print(f"Pole wynosi: {a} * {b} = {a*b}")
+import math
+
+def pole(x):
+    print(f"Pole = {math.pi *math.pow(x, 2) }")
     pass
-a = int(input("Podaj długość pierwszego boku "))
-b = int(input("Podaj długość drugiego boku "))
-pole(a, b)
+
+x = float(input("Promień: "))
+pole(x)
