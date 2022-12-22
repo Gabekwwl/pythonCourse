@@ -6,3 +6,4 @@ def pole(x):
 
 x = float(input("Promień: "))
 pole(x)
+
